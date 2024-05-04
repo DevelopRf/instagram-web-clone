@@ -17,7 +17,7 @@ export default function Footer() {
 
     return (
         <footer className="mt-[24px] mb-[52px]">
-            <div className="flex flex-col gap-y-6 px-2 items-center text-[#737373]">
+            <div className="flex flex-col gap-y-[18px] px-2 items-center text-[#737373]">
                 <div className="flex flex-wrap gap-x-4 text-xs">
                     <Link to="#" className="hover:underline">Meta</Link>
                     <Link to="#" className="hover:underline">About</Link>
@@ -34,7 +34,7 @@ export default function Footer() {
                     <Link to="#" className="hover:underline">Meta Verified</Link>
                 </div>
                 <div className="flex gap-x-4 flex-wrap text-xs">
-                    <select name="languages" id="languages" className="outline-none ">
+                    <select name="languages" id="languages" className="outline-none">
                         {
                             data && data.map(item => {
                                 return (

@@ -1,16 +1,46 @@
 import { ImFacebook2 } from "react-icons/im"
 import { Link } from "react-router-dom"
+import { useRef, useEffect } from "react"
 
 export default function LoginPage() {
+    const image = useRef()
+
+    useEffect(() => {
+        const images = image.current.querySelectorAll('img')
+        let index = 0
+        const slider = () => {
+
+            images[index].classList.remove("opacity-0")
+            if (index > 0) {
+                images[index - 1].classList.add("opacity-0")
+            }
+            else{
+                images[images.length - 1].classList.add("opacity-0")
+            }
+            if (index === images.length - 1) {
+                index = 0
+            }
+            else {
+                index++
+            }
+        }
+        slider()
+        const time = setInterval(slider, 4000)
+
+        return () => {
+            clearInterval(time)
+        }
+    }, [image])
+
     return (
         <section className="py-8">
             <div className="w-full h-full flex justify-center gap-x-8 mb-[12px]">
                 <div style={{ backgroundImage: "url('https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW')" }} className="w-[380px] h-[581px] bg-[length:468px_634px] bg-[top_left_-46px] relative">
-                    <div className="absolute w-full h-full z-10">
-                        <img src="../../public/img/screenshot1.png" alt="" className="absolute top-[26px] right-[18px]" />
-                        <img src="../../public/img/screenshot2.png" alt="" className="absolute top-[26px] right-[18px]" />
-                        <img src="../../public/img/screenshot3.png" alt="" className="absolute top-[26px] right-[18px]" />
-                        <img src="../../public/img/screenshot4.png" alt="" className="absolute top-[26px] right-[18px]" />
+                    <div ref={image} className="absolute w-[250px] h-[538px] top-[26px] right-[18px]">
+                        <img src="../../public/img/screenshot2.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
+                        <img src="../../public/img/screenshot1.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
+                        <img src="../../public/img/screenshot3.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
+                        <img src="../../public/img/screenshot4.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
                     </div>
                 </div>
                 <div className="w-[350px] flex flex-col gap-y-[10px]">
@@ -47,8 +77,8 @@ export default function LoginPage() {
                         <p>Get the app.</p>
                     </div>
                     <div className="flex gap-x-2 justify-center">
-                        <Link to="#"><img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" alt="" className="h-10"/></Link>
-                        <Link to="#"><img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" alt="" className="h-10"/></Link>
+                        <Link to="#"><img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" alt="" className="h-10" /></Link>
+                        <Link to="#"><img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" alt="" className="h-10" /></Link>
                     </div>
                 </div>
             </div>
