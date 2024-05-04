@@ -1,0 +1,269 @@
+{
+    "languages": [
+        {
+            "id": "1",
+            "name": "Afrikaans",
+            "value": "af"
+        },
+        {
+            "id": "2",
+            "name": "العربية",
+            "value": "ar"
+        },
+        {
+            "id": "3",
+            "name": "Čeština",
+            "value": "cs"
+        },
+        {
+            "id": "4",
+            "name": "Dansk",
+            "value": "da"
+        },
+        {
+            "id": "5",
+            "name": "Deutsch",
+            "value": "de"
+        },
+        {
+            "id": "6",
+            "name": "Ελληνικά",
+            "value": "el"
+        },
+        {
+            "id": "7",
+            "name": "English",
+            "value": "en"
+        },
+        {
+            "id": "8",
+            "name": "English (UK)",
+            "value": "en-gb"
+        },
+        {
+            "id": "9",
+            "name": "Español (España)",
+            "value": "es"
+        },
+        {
+            "id": "9",
+            "name": "Español",
+            "value": "es-la"
+        },
+        {
+            "id": "10",
+            "name": "فارسی",
+            "value": "fa"
+        },
+        {
+            "id": "11",
+            "name": "Suomi",
+            "value": "fi"
+        },
+        {
+            "id": "12",
+            "name": "Français",
+            "value": "fr"
+        },
+        {
+            "id": "13",
+            "name": "עברית",
+            "value": "he"
+        },
+        {
+            "id": "14",
+            "name": "Bahasa Indonesia",
+            "value": "id"
+        },
+        {
+            "id": "15",
+            "name": "Italiano",
+            "value": "it"
+        },
+        {
+            "id": "16",
+            "name": "日本語",
+            "value": "ja"
+        },
+        {
+            "id": "17",
+            "name": "한국어",
+            "value": "ko"
+        },
+        {
+            "id": "18",
+            "name": "Bahasa Melayu",
+            "value": "ms"
+        },
+        {
+            "id": "19",
+            "name": "Norsk",
+            "value": "nb"
+        },
+        {
+            "id": "20",
+            "name": "Nederlands",
+            "value": "nl"
+        },
+        {
+            "id": "21",
+            "name": "Polski",
+            "value": "pl"
+        },
+        {
+            "id": "22",
+            "name": "Português (Brasil)",
+            "value": "pt-bl"
+        },
+        {
+            "id": "23",
+            "name": "Português (Portugal)",
+            "value": "pt"
+        },
+        {
+            "id": "24",
+            "name": "Русский",
+            "value": "ru"
+        },
+        {
+            "id": "25",
+            "name": "Svenska",
+            "value": "sv"
+        },
+        {
+            "id": "26",
+            "name": "ภาษาไทย",
+            "value": "th"
+        },
+        {
+            "id": "27",
+            "name": "Filipino",
+            "value": "tl"
+        },
+        {
+            "id": "28",
+            "name": "Türkçe",
+            "value": "tr"
+        },
+        {
+            "id": "29",
+            "name": "中文(简体)",
+            "value": "zh-cn"
+        },
+        {
+            "id": "30",
+            "name": "中文(台灣)",
+            "value": "zh-tw"
+        },
+        {
+            "id": "31",
+            "name": "বাংলা",
+            "value": "bn"
+        },
+        {
+            "id": "32",
+            "name": "ગુજરાતી",
+            "value": "gu"
+        },
+        {
+            "id": "33",
+            "name": "हिन्दी",
+            "value": "hi"
+        },
+        {
+            "id": "34",
+            "name": "Hrvatski",
+            "value": "hr"
+        },
+        {
+            "id": "35",
+            "name": "Magyar",
+            "value": "hu"
+        },
+        {
+            "id": "36",
+            "name": "ಕನ್ನಡ",
+            "value": "kn"
+        },
+        {
+            "id": "37",
+            "name": "മലയാളം",
+            "value": "ml"
+        },
+        {
+            "id": "38",
+            "name": "मराठी",
+            "value": "mr"
+        },
+        {
+            "id": "39",
+            "name": "नेपाली",
+            "value": "ne"
+        },
+        {
+            "id": "40",
+            "name": "ਪੰਜਾਬੀ",
+            "value": "pa"
+        },
+        {
+            "id": "41",
+            "name": "සිංහල",
+            "value": "si"
+        },
+        {
+            "id": "42",
+            "name": "Slovenčina",
+            "value": "sk"
+        },
+        {
+            "id": "43",
+            "name": "தமிழ்",
+            "value": "ta"
+        },
+        {
+            "id": "44",
+            "name": "తెలుగు",
+            "value": "te"
+        },
+        {
+            "id": "45",
+            "name": "اردو",
+            "value": "ur"
+        },
+        {
+            "id": "46",
+            "name": "Tiếng Việt",
+            "value": "vi"
+        },
+        {
+            "id": "47",
+            "name": "中文(香港)",
+            "value": "zh-hk"
+        },
+        {
+            "id": "48",
+            "name": "Български",
+            "value": "bg"
+        },
+        {
+            "id": "49",
+            "name": "Français (Canada)",
+            "value": "fr-ca"
+        },
+        {
+            "id": "50",
+            "name": "Română",
+            "value": "ro"
+        },
+        {
+            "id": "51",
+            "name": "Српски",
+            "value": "sr"
+        },
+        {
+            "id": "52",
+            "name": "Українська",
+            "value": "uk"
+        }
+    ]
+}

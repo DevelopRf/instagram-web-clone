@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 
 export default function LoginPage() {
     return (
-        <section className="my-8">
-            <div className="w-full h-full flex justify-center gap-x-8">
+        <section className="py-8">
+            <div className="w-full h-full flex justify-center gap-x-8 mb-[12px]">
                 <div style={{ backgroundImage: "url('https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW')" }} className="w-[380px] h-[581px] bg-[length:468px_634px] bg-[top_left_-46px] relative">
                     <div className="absolute w-full h-full z-10">
                         <img src="../../public/img/screenshot1.png" alt="" className="absolute top-[26px] right-[18px]" />
