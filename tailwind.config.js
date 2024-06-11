@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        btnBg: "#0095f6",
+        colorFb: "#385185"
+      }
     },
   },
   plugins: [],
