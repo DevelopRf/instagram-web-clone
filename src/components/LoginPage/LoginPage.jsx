@@ -45,10 +45,10 @@ export default function LoginPage() {
             <div className="w-full h-full flex justify-center gap-x-8 mb-[12px]">
                 <div style={{ backgroundImage: "url('https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW')" }} className="hidden md:block w-[380px] h-[581px] bg-[length:468px_634px] bg-[top_left_-46px] relative">
                     <div ref={image} className="absolute w-[250px] h-[538px] top-[26px] right-[18px]">
-                        <img src="../../public/img/screenshot2.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
-                        <img src="../../public/img/screenshot1.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
-                        <img src="../../public/img/screenshot3.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
-                        <img src="../../public/img/screenshot4.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
+                        <img src="../../img/screenshot2.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
+                        <img src="../../img/screenshot1.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
+                        <img src="../../img/screenshot3.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
+                        <img src="../../img/screenshot4.png" alt="" className="absolute top-0 right-0 opacity-0 transition-opacity duration-[2000ms]" />
                     </div>
                 </div>
                 <div className="w-[350px] flex flex-col gap-y-[10px]">
